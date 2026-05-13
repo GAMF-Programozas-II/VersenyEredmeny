@@ -30,7 +30,7 @@ namespace Verseny
             return s;
         }
 
-        private int legjobbUgrás()
+        public int legjobbUgrás()
         {
             int maxi = 0;
             for (int i = 0; i < Eredmények.Count; i++)
